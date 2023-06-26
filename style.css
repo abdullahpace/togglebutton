@@ -31,6 +31,8 @@ h1 {
   background: #ccc;
   border-radius: 34px;
   transition: 0.4s;
+  border: 2px solid #ddd;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 .switch input {
   display: none;
@@ -42,10 +44,11 @@ h1 {
   height: 50px;
   width: 50px;
   left: 5px;
-  bottom: 5px;
+  bottom: 3px;
   background-color: white;
   transition: 0.4s;
   border-radius: 50px;
+  cursor: pointer;
 }
 input:checked + .slider {
   background-color: #ff278c;
